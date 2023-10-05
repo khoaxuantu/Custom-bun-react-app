@@ -25,5 +25,4 @@ Bun.serve({
   port: PORT
 })
 
-// console.log(`Listening on http://localhost:${PORT}`);
 hiConsole(PORT);
