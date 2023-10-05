@@ -1,6 +1,6 @@
 # React App in Bun
 
-An initial React project setup in Bun
+My React app custom template setup in Bun
 
 To install dependencies:
 
@@ -14,6 +14,5 @@ To run in local development:
 bun run dev
 ```
 Then open [http://localhost:3000](http://localhost:3000) within your browser.
-Currently, Bun only support 
 
 > This project was created using `bun init` in [Bun](https://bun.sh) v1.0.3
