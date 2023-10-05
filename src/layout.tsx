@@ -1,4 +1,3 @@
-import React from 'react';
 import App from './App';
 
 export default function RootLayout() {
@@ -11,9 +10,7 @@ export default function RootLayout() {
       </head>
       <body>
         <div id="root">
-          <React.StrictMode>
-            <App />
-          </React.StrictMode>
+          <App />
         </div>
       </body>
     </html>
