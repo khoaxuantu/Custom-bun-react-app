@@ -4,7 +4,7 @@ export default function App() {
   return (
     <>
       <React.StrictMode>
-        <App />
+        <h1>~~ Hi ~~</h1>
       </React.StrictMode>
     </>
   );
