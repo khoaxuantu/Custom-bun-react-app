@@ -7,7 +7,6 @@
 
 import * as path from "path";
 import { statSync, watch } from "fs";
-import { root } from "./src";
 
 const PROJECT_ROOT = import.meta.dir;
 const PUBLIC_DIR = path.resolve(PROJECT_ROOT, "public");

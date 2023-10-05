@@ -20,7 +20,9 @@
       "@types/web"
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "public/*": ["./public/*"],
+      "configs/*": ["./config/*"],
     }
   }
 }
