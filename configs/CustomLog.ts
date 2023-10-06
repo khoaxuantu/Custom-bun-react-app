@@ -1,8 +1,5 @@
-const prefix = '\x1b[96m[' + new Date().toLocaleString() + ']\x1b[0m -';
-console.log = console.log.bind( console, prefix );
-
 /**
- * A welcome log. It will display whenever the project is compiled successfully
+ * A welcome log. It will display whenever the project starts
  */
 export function hiConsole(port: string | number) {
   console.log("\x1b[92mCompiled successfully!\x1b[0m");
@@ -16,4 +13,14 @@ Now you can view the project in your browser:
 🚀🚀🚀 Have fun ~
 
   `);
+}
+
+/**
+ * Log the response for each request the server received
+ *
+ * @returns Response
+ */
+export function responseLog(res: Response, reqPath: string): Response {
+  console.log(`[Response | ${res.status}] - ${reqPath}`);
+  return res;
 }
