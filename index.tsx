@@ -1,6 +1,6 @@
 import { renderToReadableStream } from "react-dom/server";
 import RootLayout from "@/layout";
-import { hiConsole } from "./configs/CustomLog";
+import { hiConsole } from "@configs/CustomLog";
 
 const PORT = process.env.PORT || 3000;
 const header = {

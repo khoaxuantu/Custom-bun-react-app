@@ -19,10 +19,13 @@
       "bun-types", // add Bun global
       "@types/web"
     ],
+    "baseURL": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "public/*": ["./public/*"],
-      "configs/*": ["./config/*"],
+      "@/*": ["src/*"],
+      "@public/*": ["public/*"],
+      "@configs/*": ["configs/*"],
+      "@components/*": ["src/components/*"],
+      "@utils/*": ["src/utils/*"]
     }
   }
 }
