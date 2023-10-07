@@ -1,6 +1,8 @@
-import App from './App';
+interface LayoutProps {
+  children?: React.ReactNode
+}
 
-export default function RootLayout() {
+export default function RootLayout(props: LayoutProps) {
   return(
     <html lang='en'>
       <head>
@@ -11,7 +13,7 @@ export default function RootLayout() {
       </head>
       <body>
         <div id="root">
-          <App />
+          { props.children }
         </div>
       </body>
     </html>
